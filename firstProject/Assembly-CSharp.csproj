@@ -53,12 +53,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\EazyCamera\Code\Animation\EzAnimator.cs" />
+     <Compile Include="Assets\EazyCamera\Code\Camera\EzCamera.cs" />
+     <Compile Include="Assets\EazyCamera\Code\Camera\EzCameraCollider.cs" />
+     <Compile Include="Assets\EazyCamera\Code\Camera\EzCameraController.cs" />
+     <Compile Include="Assets\EazyCamera\Code\Camera\EzCameraSettings.cs" />
+     <Compile Include="Assets\EazyCamera\Code\Camera\EzLockOnTarget.cs" />
+     <Compile Include="Assets\EazyCamera\Code\Controller\EzPlayerController.cs" />
+     <Compile Include="Assets\EazyCamera\Code\Player\Locomotion\EzMotor.cs" />
+     <Compile Include="Assets\EazyCamera\Code\StateMachine\CameraStates\EzCameraState.cs" />
+     <Compile Include="Assets\EazyCamera\Code\StateMachine\CameraStates\EzFollowState.cs" />
+     <Compile Include="Assets\EazyCamera\Code\StateMachine\CameraStates\EzLockOnState.cs" />
+     <Compile Include="Assets\EazyCamera\Code\StateMachine\CameraStates\EzOrbitState.cs" />
+     <Compile Include="Assets\EazyCamera\Code\StateMachine\CameraStates\EzStationaryState.cs" />
+     <Compile Include="Assets\EazyCamera\Code\StateMachine\EzStateMachine.cs" />
+     <Compile Include="Assets\EazyCamera\Code\Util\ExtensionMethods.cs" />
      <Compile Include="Assets\Elenesski Generic Move Camera\GenericMoveCamera.cs" />
      <Compile Include="Assets\Elenesski Generic Move Camera\GenericMoveCameraInputs.cs" />
      <Compile Include="Assets\scripts\crecerPaaArriba.cs" />
      <Compile Include="Assets\scripts\destroyAfter.cs" />
      <Compile Include="Assets\scripts\moverse.cs" />
      <Compile Include="Assets\scripts\spin.cs" />
+     <None Include="Assets\EazyCamera\README.txt" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/aleja/Documents/private/bowlingFirstClass/firstProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
