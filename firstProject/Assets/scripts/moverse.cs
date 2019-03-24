@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class moverse : MonoBehaviour
 {
-    public float speedX = 10f;
+    public float speedX = 0f;
     public float speedY = 0f;
     public float speedZ = 0f;
 
